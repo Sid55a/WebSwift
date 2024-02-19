@@ -1,90 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebSwift Internship Assignment</title>
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            background: linear-gradient(to bottom right, #4caf50, #2196f3);
-            color: #ffffff;
-            padding: 20px;
-            box-sizing: border-box; /* include padding in height calculation */
-        }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background: linear-gradient(to bottom right, #4caf50, #2196f3);
+        color: #ffffff;
+      }
 
+      .heading {
+        font-size: 4em;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .intro {
+        font-family: Arial, sans-serif;
+        font-size: 1.35em;
+        font-weight: 500;
+        text-align: left;
+        width: 80%;
+        text-align: justify;
+        /* Apply text-shadow with multiple color stops */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 2px 2px 4px #4caf50,
+          2px 2px 4px #2196f3;
+      }
+
+      .skills {
+        margin-top: 20px;
+        padding-left: 0;
+        text-align: left;
+        width: 80%;
+      }
+
+      .skills li {
+        list-style: none;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+      }
+
+      /* Media Query for smaller screens */
+      @media (max-width: 768px) {
         .heading {
-            font-size: 2em;
-            text-align: center;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+          font-size: 1.5em;
         }
-
         .intro {
-            font-family: Arial, sans-serif;
-            font-size: 1em;
-            font-weight: 500;
-            text-align: left;
-            width: 100%;
-            text-align: justify;
-            margin-top: 20px;
+          font-size: 0.9em;
         }
-
-        .skills {
-            margin-top: 20px;
-            padding-left: 0;
-            text-align: left;
-            width: 100%;
-        }
-
         .skills li {
-            list-style: none;
-            margin-bottom: 10px;
-            font-size: 0.9em;
+          font-size: 0.8em;
         }
-
-        /* Media Query for smaller screens */
-        @media (max-width: 768px) {
-            .heading {
-                font-size: 1.5em;
-            }
-            .intro {
-                font-size: 0.9em;
-            }
-            .skills li {
-                font-size: 0.8em;
-            }
-        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1 class="heading">WebSwift Internship Assignment</h1>
+      <h1 class="heading">WebSwift Internship Assignment</h1>
 
-        <p class="intro">
-            Myself <b>Siddharth Gupta</b>, 3rd year undergraduate student at Indian
-            Institute Of Information Technology-Vadodara. Aspiring Web Developer |
-            Full Stack Enthusiast, Proficient in HTML, CSS, and JavaScript, with
-            expertise in Next.js and React.js, I am a proactive and detail-oriented
-            full stack developer. With hands-on experience in crafting intuitive web
-            applications, I am eager to contribute my skills and passion for coding
-            to a dynamic internship role, driving innovation and excellence in web
-            development.
-        </p>
-        <ul class="skills">
-            <li>Proficient in HTML, CSS, and JavaScript for front-end development.</li>
-            <li>Experienced in full stack development with expertise in Next.js, React.js, and other frameworks.</li>
-            <li>Strong problem-solving abilities for addressing challenges across the development lifecycle.</li>
-        </ul>
+      <p class="intro">
+        Myself <b>Siddharth Gupta</b>, 3rd year undergraduate student at Indian
+        Institute Of Information Technology-Vadodara. Aspiring Web Developer |
+        Full Stack Enthusiast, Proficient in HTML, CSS, and JavaScript, with
+        expertise in Next.js and React.js, I am a proactive and detail-oriented
+        full stack developer. With hands-on experience in crafting intuitive web
+        applications, I am eager to contribute my skills and passion for coding
+        to a dynamic internship role, driving innovation and excellence in web
+        development.
+      </p>
+      <ul class="skills">
+        <li>
+          Proficient in HTML, CSS, and JavaScript for front-end development.
+        </li>
+        <li>
+          Experienced in full stack development with expertise in Next.js,
+          React.js, and other frameworks.
+        </li>
+        <li>
+          Strong problem-solving abilities for addressing challenges across the
+          development lifecycle.
+        </li>
+      </ul>
     </div>
-</body>
+  </body>
 </html>
